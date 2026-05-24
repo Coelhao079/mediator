@@ -90,7 +90,7 @@ class Medico extends Participante {
     public void prescreverExame(String pacienteNome, String exame) {
         System.out.println("⚕️ Dr(a). " + nome + " solicitou o exame '" + exame + "' para " + pacienteNome + ".");
         // O médico não fala com o paciente direto, ele pede ao Mediator
-        mediator.solicitarExame(this.nome, pacienteNome, examen);
+        mediator.solicitarExame(this.nome, pacienteNome, exame);
     }
 }
 
